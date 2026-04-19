@@ -13,7 +13,7 @@ The central advance is a frequency-dependent non-linear plus entropic screening 
 
 ### Repository Contents
 - `paper/` – Final PDF  
-- `figures/` – All high-resolution figures, plots, and 3D renders of ROCKY
+- `figures/` – All high-resolution figures, plots, and 3D renders of ROCKY  
 
 ### How to Cite
 ```bibtex
