@@ -3,7 +3,7 @@
 
 *Andrew Deece, Independent Researcher, Sydney, Australia*
 
-[![PDF](https://github.com/andrewdeece/rocky-kk-yield/blob/main/paper/Artemis II and the Emergent Cosmos Gravity as a Geometric Projection from a Non-Linear Compactified 5D Manifold — A Synthesis and Lunar Test Proposal with ROCKY —.pdf). 
+[![PDF](https://github.com/andrewdeece/rocky-kk-yield/blob/main/paper/ROCKY.pdf). 
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19659640-blue)](https://zenodo.org/records/19659640)
 
 ### Meet Rocky
