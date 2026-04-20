@@ -3,7 +3,7 @@
 
 *Andrew Deece, Independent Researcher, Sydney, Australia*
 
-[![PDF](https://github.com/andrewdeece/rocky-kk-yield/blob/main/paper/ROCKY). 
+[![PDF](https://github.com/andrewdeece/rocky-kk-yield/blob/main/paper/ROCKY.pdf). 
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19659640-blue)](https://zenodo.org/records/19659640)
 
 ### Meet Rocky
