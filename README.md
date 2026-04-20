@@ -3,7 +3,6 @@
 
 *Andrew Deece, Independent Researcher, Sydney, Australia*
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.xxxxx-gr-qc.svg)](https://arxiv.org/abs/2504.xxxxx)  
 [![ROCKY](https://img.shields.io/badge/ROCKY-blue)](https://github.com/andrewdeece/rocky-kk-yield/blob/main/paper/Artemis%20II%20and%20the%20Emergent%20Cosmos%20Gravity%20as%20a%20Geometric%20Projection%20from%20a%20Non-Linear%20Compactified%205D%20Manifold%20%E2%80%94%20A%20Synthesis%20and%20Lunar%20Test%20Proposal%20with%20ROCKY%20%E2%80%94.pdf)  
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19659640-blue)](https://zenodo.org/records/19659640)
 
