@@ -28,7 +28,7 @@ The name ROCKY is officially assigned the acronym “Remote Observatory for Kalu
 
 ### Key Features
 - Frequency-dependent non-linear + entropic screening mechanism (β = 2)  
-- Predicts δg/g ≈ 2 × $10^{-15} with SNR > 5 in the Artemis low-frequency window  
+- Predicts δg/g ≈ 2 × 10^{-15} with SNR > 5 in the Artemis low-frequency window  
 - 50–200 kg ROCKY dual-species $^{87}\mathrm{Rb}/^{39}\mathrm{K}$ atom-interferometer payload  
 - **Live Phase 0 re-analysis** of public Artemis II free-fall data (April 2026, NASA SP-2026-001) already completed — 40 % tighter exclusion contour  
 - Fully compatible with Starship HLS / CLPS envelopes and lunar South Pole deployment  
