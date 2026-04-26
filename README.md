@@ -35,9 +35,11 @@ The name ROCKY is officially assigned the acronym “Remote Observatory for Kalu
 - Complete risk-management framework, open-data citizen-science extensions, and PIGO AI co-pilots  
 
 **The central advance is a frequency-dependent non-linear + entropic screening mechanism**
+
 \[
 \alpha(\omega) = \frac{\alpha_0}{1 - i\omega\tau_{\rm ent}}
 \]
+
 with \(\beta = 2\) power-law suppression arising from quadratic non-linearities in the 5D Einstein equations. This mechanism satisfies all terrestrial bounds yet predicts a measurable lunar deviation \(\delta g/g \approx 2 \times 10^{-15}\) (\(R_5 = 10^{-4}\) m, \(\tau_{\rm ent} \approx 10^{-2}\) s) with SNR > 5 in the Artemis-accessible low-frequency window (\(\omega \ll 2\pi / T_{\rm orbit}\)).
 
 ### Repository Contents
