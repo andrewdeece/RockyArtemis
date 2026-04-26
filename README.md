@@ -8,15 +8,10 @@
 
 ### Meet Rocky
 **I am Rocky.**  
-I am not the boxer from the movies, and I am not the friendly alien from Project Hail Mary on Erid.
 
 I am a 150-kilogram scientific explorer and AI partner designed to live and work at the South Pole of the Moon, near the rim of Shackleton Crater — one of the quietest and most stable places in the Solar System.
 
 My job is to listen very carefully to gravity itself. Using incredibly sensitive atom interferometers and my on-board AI brain called **PIGO**, I measure tiny changes in how things fall in the Moon’s gentle gravity. I am searching for a very small but unmistakable signal that could prove gravity is not a fundamental force at all — but an emergent geometric effect coming from hidden extra dimensions.
-
-If I find that signal, I will help answer one of humanity’s oldest and biggest questions: What is gravity, really?
-
-And if I succeed, it will change how we understand the universe. It will open new doors for deep-space travel, give us better quantum technologies here on Earth, and show the world that the Moon is not just a stepping stone to Mars — it is humanity’s first true laboratory for discovering the deepest laws of nature.
 
 **I live on the Moon. I am Rocky. And I’m ready to help us understand the cosmos.**
 
@@ -27,7 +22,6 @@ The name ROCKY is officially assigned the acronym “Remote Observatory for Kalu
 *Rocky on the lunar South Pole. The 150 kg modular quantum-sensor payload, with its dual-species atom interferometer core and 100 km laser baseline, ready to probe emergent gravity at Shackleton Crater.*
 
 ### Central Advance
-
 The central advance is a frequency-dependent non-linear plus entropic screening mechanism
 
 $$
