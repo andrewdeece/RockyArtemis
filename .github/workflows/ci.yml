@@ -5,14 +5,14 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  workflow_dispatch: # Allows manual triggering from the GitHub UI
+  workflow_dispatch:
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: bash -el {0} # Required for conda environment activation
+        shell: bash -el {0}
 
     steps:
     - name: Checkout Repository
@@ -24,11 +24,11 @@ jobs:
         activate-environment: rocky-artemis
         environment-file: environment.yml
         auto-activate-base: false
-        miniforge-version: latest # Uses mamba under the hood for ultra-fast solving
+        miniforge-version: latest
         use-mamba: true
 
     - name: Cache Conda Packages
-      uses: actions/cache@v3
+      uses: actions/cache@v4 # FIXED: Upgraded to v4 to resolve Node 16 deprecation
       env:
         cache-name: cache-conda-pkgs
       with:
@@ -39,18 +39,15 @@ jobs:
       run: |
         conda info
         conda list
-        # Ensure SOTA linting and testing tools are present
         pip install ruff pytest pytest-cov
 
     - name: Enforce Code Quality (Ruff)
       run: |
-        # Ruff is the modern, ultra-fast Rust-based linter replacing Flake8/Black
         ruff check src/ tests/
         ruff format --check src/ tests/
 
     - name: Execute Physics Engine Unit Tests
       run: |
-        # Run pytest with coverage reporting for the sympy derivations
         pytest tests/ --cov=src --cov-report=xml --cov-report=term
 
     - name: Upload Coverage Artifacts
