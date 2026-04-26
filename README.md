@@ -5,11 +5,6 @@
 
 [![ROCKY](https://img.shields.io/badge/ROCKY-blue)](https://github.com/andrewdeece/RockyArtemis/blob/main/paper/ROCKYArtemis_paper.pdf)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19790009-blue)](https://doi.org/10.5281/zenodo.19790009)
-## Quick Start
-```bash
-git clone https://github.com/andrewdeece/RockyArtemis.git
-cd RockyArtemis
-# (add conda env creation once environment.yml exists)
 
 ### Meet Rocky
 **I am Rocky.**  
