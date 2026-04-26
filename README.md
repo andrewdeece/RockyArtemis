@@ -47,9 +47,10 @@ with β = 2 power-law suppression arising from quadratic non-linearities in the 
 Crucially, this architecture requires no exotic physics or materials to construct. All core components — dual-species atom interferometry, regolith bagging, radiation-hardened edge AI, and long-baseline laser ranging — currently sit at TRL 5–7, with direct heritage from ISS experiments (CAL/BECCAL), terrestrial long-baseline arrays (MAGIS-100), and NASA’s 2025–2026 dust-mitigation demonstrations. The physical visualisation of this payload confirms that a fully buildable, falsifiable testbed for emergent gravity can be seamlessly integrated into the imminent Artemis payload manifests.
 
 ### Repository Contents
-- `paper/` — Final 68-page whitepaper (PDF)  
+- `paper/` — Final 105-page whitepaper (PDF)  
 - `figures/` — High-resolution publication-ready figures and renders (companion All Figures.pdf)
-- `letter/` - One-page "For some time now, I’ve been thinking about gravity in a completely different way..."
+- `letter/` - One-page cover note "For some time now, I’ve been thinking about gravity in a completely different way..."
+- `notebooks/` - (Coming soon) Jupyter notebooks to regenerate analysis
 
 ### How to Contribute
 Fork the repository, propose improvements to the ROCKY payload concept, or suggest enhancements to the analysis pipeline. All contributions are welcome and will be properly credited.
