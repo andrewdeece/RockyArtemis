@@ -36,7 +36,8 @@ The name ROCKY is officially assigned the acronym “Remote Observatory for Kalu
 
 ### Repository Contents
 - `paper/` — Final 68-page whitepaper (PDF)  
-- `figures/` — High-resolution publication-ready figures and renders (companion All Figures.pdf)  
+- `figures/` — High-resolution publication-ready figures and renders (companion All Figures.pdf)
+- `Cover Letter/` - One-page "For some time now, I’ve been thinking about gravity in a completely different way..."
 
 ### How to Contribute
 Fork the repository, propose improvements to the ROCKY payload concept, or suggest enhancements to the analysis pipeline. All contributions are welcome and will be properly credited.
