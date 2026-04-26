@@ -1,0 +1,15 @@
+name: rocky-artemis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - sympy
+  - scipy
+  - numpy
+  - matplotlib
+  - pandas
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+    - notebook
