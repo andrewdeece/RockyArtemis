@@ -1,0 +1,61 @@
+name: ROCKY SOTA CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch: # Allows manual triggering from the GitHub UI
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0} # Required for conda environment activation
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Conda Environment
+      uses: conda-incubator/setup-miniconda@v3
+      with:
+        activate-environment: rocky-artemis
+        environment-file: environment.yml
+        auto-activate-base: false
+        miniforge-version: latest # Uses mamba under the hood for ultra-fast solving
+        use-mamba: true
+
+    - name: Cache Conda Packages
+      uses: actions/cache@v3
+      env:
+        cache-name: cache-conda-pkgs
+      with:
+        path: ~/conda_pkgs_dir
+        key: ${{ runner.os }}-conda-${{ hashFiles('environment.yml') }}
+
+    - name: Verify Environment & Install Test Tools
+      run: |
+        conda info
+        conda list
+        # Ensure SOTA linting and testing tools are present
+        pip install ruff pytest pytest-cov
+
+    - name: Enforce Code Quality (Ruff)
+      run: |
+        # Ruff is the modern, ultra-fast Rust-based linter replacing Flake8/Black
+        ruff check src/ tests/
+        ruff format --check src/ tests/
+
+    - name: Execute Physics Engine Unit Tests
+      run: |
+        # Run pytest with coverage reporting for the sympy derivations
+        pytest tests/ --cov=src --cov-report=xml --cov-report=term
+
+    - name: Upload Coverage Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: coverage-report
+        path: coverage.xml
+        retention-days: 14
