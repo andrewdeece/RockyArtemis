@@ -12,4 +12,7 @@ dependencies:
   - ipykernel
   - pip
   - pip:
-    - notebook
+      - notebook
+      - ruff
+      - pytest
+      - pytest-cov
